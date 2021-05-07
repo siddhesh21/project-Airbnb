@@ -5,8 +5,8 @@ import Home from "./components/Home";
 function App() {
   return (
     <div className="app">
-      <Home />
       <Header />
+      <Home />
       {/**BANNER */}
       {/**SEARCH */}
       {/**CARDS */}
