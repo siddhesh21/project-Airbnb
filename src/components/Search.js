@@ -1,12 +1,14 @@
 import React, { useState } from "react";
-import "./SearchDatePicker.css";
+import "./Search.css";
+import "react-date-range/dist/styles.css"; // main style file
+import "react-date-range/dist/theme/default.css"; // theme css file
 import { DateRangePicker } from "react-date-range";
-import "react-date-range/dist/styles.css";
-import "react-date-range/dist/theme/default.css";
-import PeopleIcon from "@material-ui/icons/People";
 import { Button } from "@material-ui/core";
+import PeopleIcon from "@material-ui/icons/People";
+import { useHistory } from "react-router-dom";
 
-function SearchDatePicker() {
+function Search() {
+  const history = useHistory();
   const [startDate, setStartDate] = useState(new Date());
   const [endDate, setEndDate] = useState(new Date());
 
@@ -28,9 +30,9 @@ function SearchDatePicker() {
         Number of guests <PeopleIcon />
       </h2>
       <input min={0} defaultValue={2} type="number" />
-      <Button>Search Airbnb</Button>
+      <Button onClick={() => history.push("/search")}>Search Airbnb</Button>
     </div>
   );
 }
 
-export default SearchDatePicker;
+export default Search;

@@ -29,7 +29,7 @@ function Home() {
         <Card
           src="https://media.nomadicmatt.com/2019/airbnb_breakup3.jpg"
           title="3 Bedroom Flat in Bournemouth"
-          description="Superhost with a stunning view of the beachside in Sunny Bournemouth"
+          description="SuperHost with a stunning view of the beachSide in Sunny Bournemouth"
           price="£130/night"
         />
         <Card
@@ -41,7 +41,7 @@ function Home() {
         <Card
           src="https://media.nomadicmatt.com/2018/apartment.jpg"
           title="1 Bedroom apartment"
-          description="Superhost with great amenities and a fabolous shopping complex nearby"
+          description="SuperHost with great amenities and a fabulous shopping complex nearby"
           price="£70/night"
         />
       </div>
