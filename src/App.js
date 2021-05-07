@@ -1,4 +1,5 @@
 import "./App.css";
+import Banner from "./components/Banner";
 import Header from "./components/Header";
 import Home from "./components/Home";
 
@@ -7,7 +8,6 @@ function App() {
     <div className="app">
       <Header />
       <Home />
-      {/**BANNER */}
       {/**SEARCH */}
       {/**CARDS */}
       {/**FOOTER */}
